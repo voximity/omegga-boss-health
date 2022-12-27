@@ -1,29 +1,14 @@
-<!--
+# omegga-boss-health
 
-When uploading your plugin to github/gitlab
-start your repo name with "omegga-"
+A plugin for Omegga that shows the boss's health in chat regularly. Be sure to look at the config options thru the Omegga UI to customize this plugin.
 
-example: https://github.com/voximity/omegga-boss-health
-
-Your plugin will be installed via omegga install gh:voximity/boss-health
-
--->
-
-# boss-health
-
-A typed safe plugin for [omegga](https://github.com/brickadia-community/omegga).
-
-This is an auto-generated README file. Please change it before publishing your plugin!
-
-Be sure to edit the script in `setup.sh` to configure your plugin on install, or
-remove it entirely if it is unnecessary.
-
-## Install
+## Installation
 
 `omegga install gh:voximity/boss-health`
 
-_TODO: more steps...?_
+## Credits
 
-## Usage
-
-_TODO: include some usage information_
+* voximity - creator, maintainer
+* Snabs - idea
+* [Aware](https://github.com/mraware) - the `GetAll` mastermind
+* [Meshiest](https://github.com/Meshiest) - [Omegga](https://github.com/brickadia-community/omegga)
