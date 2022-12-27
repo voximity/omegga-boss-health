@@ -1,0 +1,44 @@
+{
+  "name": "boss-health",
+  "author": "x",
+  "description": "Boss health display for boss battle/juggernaut minigames.",
+  "config": {
+    "boss-team-names": {
+      "description": "The name of the team that is considered a boss. Works throughout gamemodes.",
+      "type": "list",
+      "itemType": "string",
+      "default": ["Boss", "Juggernaut"]
+    },
+    "interval": {
+      "description": "How often to check minigames and health and potentially display in chat, in milliseconds.",
+      "type": "number",
+      "default": 1000
+    },
+    "health-bar-size": {
+      "description": "How many characters the health bar should be composed of.",
+      "type": "number",
+      "default": 40
+    },
+    "middle-print": {
+      "description": "Whether or not to use middle print instead of chat.",
+      "type": "boolean",
+      "default": true
+    },
+    "announce-timeout": {
+      "description": "How long to wait, in seconds, before showing the next health announcement.",
+      "type": "number",
+      "default": 5
+    },
+    "announce-health-change": {
+      "description": "How much fractional health must be depleted before the announcement is shown.",
+      "type": "number",
+      "default": 0.05
+    },
+    "announce-require-time-and-health-change": {
+      "description": "When true, the announcement will only occur when the time from last announcement passed announce-timeout AND the health changed by over announce-health-change. When off, either criteria will cause the display.",
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "commands": []
+}
